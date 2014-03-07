@@ -1,7 +1,6 @@
 MyChat::Application.routes.draw do
   get "public/index"
-  get "public/home"
-  root to: "public#home"
+  root to: "public#index"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
